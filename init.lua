@@ -22,8 +22,10 @@ require('lazy').setup({
 	require 'plugins.lsp',
 	require 'plugins.autopairs',
 	require 'plugins.autocompletion',
-	require 'plugins.gitsigns'
+	require 'plugins.gitsigns',
+	require 'plugins.nvim-dap',
 })
+
 -- Set statusline to show current working directory
 vim.o.statusline = '%F %=%m %y %r %=%-14.(%l,%c%V%) %P'
 
